@@ -51,7 +51,7 @@ spec:
       volumes:
         - name: nginx-logs
           persistentVolumeClaim:
-           claimName: nginx-logs
+            claimName: nginx-logs
       containers:
       - image: nginx:1.17.6
         name: nginx
